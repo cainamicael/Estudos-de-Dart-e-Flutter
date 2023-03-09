@@ -1,0 +1,47 @@
+Mostrar na tela:
+
+    void main() {
+        print('teste');
+    }
+
+Comentário: // ou /**/
+
+Variáveis e tipos:
+
+    String nome = 'Cainã';
+
+    String cor;
+    String resposta = cor ?? 'Sem cor'; //Se eu colocar ?? quer dizer que se for null, ele vai dar a segunda resposta
+
+--------------------------
+
+    int valor = 10;
+
+    double valorQuebrado = 5.5;
+
+--------------------------
+
+    bool status = true;
+
+    bool isTrue = 1 > 0; //Retorna se o resultado é verdadeiro ou falso
+
+    String resultado;
+    resultado = status ? 'Verdadeiro' : 'Falso'; //Operador ternário
+
+--------------------------
+
+    var nome = 'Isaac';
+    var numero = 10;
+    var peso = 5.5;
+    //Se depois eu for alterar o valor da variavel, eu tenho que colocar um valor do mesmo tipo que o primeiro valor
+
+--------------------------
+
+    dynamic nome = 'Pedro';
+    dynamic valor = 50.5;
+    //Com o dynamic, eu posso colocar outro valor de um tipo diferende
+
+Operadores:
+
+    +,-,*,/
+
